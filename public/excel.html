@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR File Upload</title>
+    <link rel="stylesheet" href="css/second.css">
+</head>
+
+<body>
+    <h3>Try Our free QR Generator</h3>
+    <div class="snap"><img src="gallery/test.png" alt="" srcset=""></div>
+    <div id="main">
+
+        <form action="/sub" method="post" enctype="multipart/form-data" id="upload_form">
+
+
+            <label for="inp_file" class="custom-upload">
+                Upload Excel File
+            </label>
+            <input type="file" name="user_file" id="inp_file" accept=".xls,.xlsx,application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"  style="display: none;" required /><br>
+            <input placeholder="Name Of QR(optional)" id="opt"><br>
+            <button type="submit" id="btn">Click Here</button>
+        </form>
+
+    </div>
+
+    <span id="loader" style="display: none;">&#x23F3;</span>
+    <div id="qr-download" style="display: none;">
+        <img src="" id="qr-image" />
+        <button class="qr-btn">Download</button>
+    </div>
+    <script src="js/excel.js"></script>
+
+</body>
+</html>

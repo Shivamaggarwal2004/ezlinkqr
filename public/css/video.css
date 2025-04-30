@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    
+    text-align: center;
+    font-weight: 900;
+    /*ye multicolor generate karena ka tarika ha*/
+    background: linear-gradient(to right,rgb(254, 170, 170),blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    
+}
+
+.snap{
+    
+    width: 30%;
+    margin: 5px auto;
+   
+    text-align: center;
+    margin-top: 5px;
+}
+.snap > img{
+    height: 200px;
+    object-fit: cover;
+}
+
+#main
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+  .custom-upload {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .custom-upload:hover {
+    background-color: #445145;
+  }
+
+
+
+#opt{
+    margin-bottom: 12px;
+    padding: 7px;
+}
+
+
+#btn
+{
+    padding: 10px;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius:25px;
+   background-color:  #e2c8e8;
+}
+
+#btn:hover{
+    background-color:  #756c78;
+}
+
+
+#qr-download{
+    
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    right:100px;
+    top: 50px;
+}
+
+.box
+{
+height: 100px;
+width: 100px;
+border: 2px solid black;
+margin-left: 24px;
+}
+
+.qr-btn
+{
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 30px;
+    margin-left: 37px;
+    margin-top: 9px;
+    background-color:  #e2c8e8;
+}*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    
+    text-align: center;
+    font-weight: 900;
+    /*ye multicolor generate karena ka tarika ha*/
+    background: linear-gradient(to right,rgb(254, 170, 170),blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    
+}
+
+.snap{
+    
+    width: 30%;
+    margin: 5px auto;
+   
+    text-align: center;
+    margin-top: 5px;
+}
+.snap > img{
+    height: 200px;
+    object-fit: cover;
+}
+
+#main
+{
+    text-align: center;
+    margin-top: 30px;
+}
+
+  .custom-upload {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+
+  .custom-upload:hover {
+    background-color: #445145;
+  }
+
+
+
+#opt{
+    margin-bottom: 12px;
+    padding: 7px;
+}
+
+
+#btn
+{
+    padding: 10px;
+    font-size: 19px;
+    border: 2px solid black;
+    border-radius:25px;
+   background-color:  #e2c8e8;
+}
+
+#btn:hover{
+    background-color:  #756c78;
+}
+
+
+#qr-download{
+    
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    right:100px;
+    top: 50px;
+}
+
+.box
+{
+height: 100px;
+width: 100px;
+border: 2px solid black;
+margin-left: 24px;
+}
+
+.qr-btn
+{
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 30px;
+    margin-left: 37px;
+    margin-top: 9px;
+    background-color:  #e2c8e8;
+}

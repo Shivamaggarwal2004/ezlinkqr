@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1
+{
+    margin-left: 141px;
+}
+.accordin{
+    width: 70%;
+    margin:0 auto;
+}
+
+.accordin-item
+{
+    margin: 10px 0;
+}
+
+.accordin-title{
+    font-size: 22px;
+    color: white;
+    /* background-color: rgb(53, 56, 55); */
+    background-color: 
+    #8cabbd;
+    cursor: pointer;
+    padding: 8px 0;
+}
+.accordin-content
+{
+    
+    background-color: #dddddd;
+    display: none;
+    line-height: 22px;
+}
+
+.accordin-item.active .accordin-content
+{
+    display: block;
+}

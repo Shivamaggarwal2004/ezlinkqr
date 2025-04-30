@@ -1,0 +1,228 @@
+/* Reset and base styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 900;
+    background: linear-gradient(to right, rgb(254, 170, 170), blue);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: 20px;
+}
+
+.snap {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.snap img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+#main, #qr-download {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.input-area {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+}
+
+.label-style, .custom-subject {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.label-style {
+    margin-right: 165px;
+}
+
+.custom-subject {
+    margin-right: 92px;
+}
+
+#text-body {
+    display: inline-block;
+    margin-left: 64px;
+    max-height: 70vh;
+    max-width: 70vh;
+}
+
+#opt {
+    margin: 0 0 12px 15px;
+    padding: 7px;
+}
+
+#btn, .qr-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #e2c8e8;
+    cursor: pointer;
+}
+
+#btn:hover, .qr-btn:hover {
+    background-color: #d1b3d7;
+}
+
+#loader {
+    margin: 20px auto;
+    display: none;
+    text-align: center;
+    font-size: 30px;
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#qr-image {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}
+
+.qr-btn {
+    margin-top: 10px;
+}
+
+
+@media (max-width: 1150px) {
+    body {
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .snap {
+        max-width: 300px;
+    }
+
+    .snap img {
+        height: 180px;
+    }
+
+    .input-area {
+        width: 90%;
+        margin-bottom: 15px;
+    }
+
+    .label-style {
+        margin-right: 80px;
+    }
+
+    .custom-subject {
+        margin-right: 30px;
+    }
+
+    #text-body {
+        margin-left: 0;
+        width: 90%;
+        max-width: 90%;
+        height: auto;
+    }
+
+    #opt {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    #btn, .qr-btn {
+        padding: 8px 16px;
+        font-size: 16px;
+        border-radius: 20px;
+    }
+
+    #loader {
+        font-size: 24px;
+    }
+
+    #qr-image {
+        width: 130px;
+        height: 130px;
+    }
+}
+
+/* For screens up to 600px */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .snap {
+        max-width: 250px;
+    }
+
+    .snap img {
+        height: 150px;
+    }
+
+    .input-area {
+        width: 100%;
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    .label-style, .custom-subject {
+        display: block;
+        margin-right: 0;
+        text-align: left;
+        font-size: 14px;
+    }
+
+    #text-body {
+        margin-left: 0;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #opt {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #btn, .qr-btn {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+        border-radius: 20px;
+    }
+
+    #loader {
+        font-size: 20px;
+    }
+
+    #qr-image {
+        width: 120px;
+        height: 120px;
+    }
+}

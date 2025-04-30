@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/email.css">
+</head>
+
+<body>
+    <h3>Try Our free QR Generator</h3>
+
+    <div class="snap"><img src="gallery/test.png" alt="" srcset=""></div>
+    <div id="main">
+        <label for="text-email" class="custom-email label-style">Email</label><br>
+        <input type="text" id="text-email" placeholder="Dumy@gmail.com" class="input-area" required><br>
+
+        <label for="text-subject" class="custom-subject ">Subject(optional)</label><br>
+        <input type="text" id="text-subject" placeholder="Write SomeThing" class="input-area"><br>
+
+        <label for="text-body" class="custom-body label-style">Body</label><br>
+
+        <textarea id="text-body" cols="30" rows="5" class="input-area"></textarea><br>
+
+        <input placeholder="Name Of QR(optional)" id="opt"><br>
+        <button onclick="getval()" id="btn">Generate QR </button>
+
+
+
+    </div>
+    <span id="loader" style="display: none;">&#x23F3;</span>
+    <div id="qr-download" style="display: none;">
+        <img src="" id="qr-image" />
+        <button class="qr-btn">Download</button>
+    </div>
+
+
+
+
+
+
+
+   <script src="js/email.js"></script>
+</body>
+
+</html>
